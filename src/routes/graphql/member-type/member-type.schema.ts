@@ -5,8 +5,12 @@ import {
   GraphQLNonNull,
   GraphQLObjectType,
 } from 'graphql/index.js';
-import { MemberTypeEnum } from './member-type.enums.js';
 import { IMemberType } from './member-type.types.js';
+
+export enum MemberTypeEnum {
+  BASIC = 'BASIC',
+  BUSINESS = 'BUSINESS',
+}
 
 export const MemberTypeId = new GraphQLEnumType({
   name: 'MemberTypeId',

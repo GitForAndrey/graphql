@@ -1,8 +1,7 @@
 import { GraphQLList, GraphQLNonNull, GraphQLObjectType } from 'graphql';
 import { IdField } from './id/id.schema.js';
 import { IIdField } from './id/id.types.js';
-import { MemberTypeEnum } from './member-type/member-type.enums.js';
-import { MemberType, MemberTypeId } from './member-type/member-type.schema.js';
+import { MemberType, MemberTypeEnum, MemberTypeId } from './member-type/member-type.schema.js';
 import { Post } from './post/post.schema.js';
 import { Profile } from './profile/profile.schema.js';
 import { IContext } from './types/context.js';

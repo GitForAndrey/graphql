@@ -1,4 +1,5 @@
-import { MemberTypeEnum } from './member-type.enums.js';
+import { MemberTypeEnum } from "./member-type.schema.js";
+
 
 export interface IMemberType {
   id: MemberTypeEnum;

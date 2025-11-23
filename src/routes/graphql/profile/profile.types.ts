@@ -1,5 +1,5 @@
 import { IIdField } from '../id/id.types.js';
-import { MemberTypeEnum } from '../member-type/member-type.enums.js';
+import { MemberTypeEnum } from '../member-type/member-type.schema.js';
 import { IMemberType } from '../member-type/member-type.types.js';
 
 export interface IProfile extends IIdField {
